@@ -12,7 +12,7 @@ Assignment： `make(chan TYPE, len)` ， 初始化值类型的字面量以及通
 
 Operations： 接收操作符<-向通道值发送数据， `ch1 <- "value1"`。接收数据，`<- ch1`。把接收的福祉，`value, ok := <- ch1`。
 
-Close：`Close(ch1)`。
+Close：`close(ch1)`。
 
 ## 2.other features
 
